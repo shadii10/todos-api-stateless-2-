@@ -1,0 +1,16 @@
+{
+  "start": "node server.js",
+  "install": "npm install",
+  "watch": {
+    "ignore": [
+      "\\.git",
+      "node_modules",
+      "\\.db"
+    ],
+    "install": {
+      "include": [
+        "^package\\.json$"
+      ]
+    }
+  }
+} 
